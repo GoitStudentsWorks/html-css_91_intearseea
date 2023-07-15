@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-MarkUp14/",
+    "build": "vite build --base=/html-css_91_intearseea/",
     "preview": "vite preview"
   },
   "devDependencies": {
