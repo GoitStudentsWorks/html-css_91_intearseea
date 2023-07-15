@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAuJJREFUOE9Vkz9onXUUhp/3/L7vpmkTYlKrpdJUwS7VpYOg4lQHF9tBcBEbpVdtKxIwxGYyi1LchO7iXyqadBBRBzs4SCGowQpSFa3W/gvaYpPU5t77fd/vlRtF6Hw4z+F9H45m5g4sWtolSIjTVa96liINFugo4k5BF/RJVeTX1WVPCk0hRmSWwPM6Mt/ugFuSwFzMZsowFngWtEWiMizkYDKapg3pKWBI4ZVsfaaZ+XaFSBgBlxszhfOtKWIW2GJTIX+VicNy/ZwUE0LDlldBn2pm/sBi/xL9COZ8zvVUpGLM8Cr4NqEe9qmsPCvHPsRBrFGJFcgfafrDiQcUxTY5rKbzSy+6P7ncNFA63U9Vb+pHgPTjRlZ//asuRlutwYcCxrKbbq/TLGjq/YndKuIunCPB77nj74c2dKq12LizZ41FCtPJV652+W24rFplkba6UBk9NZ0q/6mZE+2vbW5ft2AuZZoX7eZCRHlMcC9WEP5Z1nRDsztILxiPAsu2j99UovFSzjwvN39ESu8h7eiXKzjX5OaQHXsjsX+9RLxq6WMdmT9wXWgQ1i2cb5wnlfOV/wEA9rkc+TC19in05E2A6bn2W0m+z1Aq8x2ZV+pS11L2MaR7+vvYZ2rVsyXFg0aHsG9BumbndzX59v7xlNKIXAdlrF3ftOECl6hGRrrjDc1Q5HDj4no9evli69r24WKg2VU7D8qpKy//oJfmnn7c6G5qD5D4WxWf91RcbpX5EfC4nR3SmbVudXKgFZul8lGTt0hxo6nzF5qZay8BLWMJrWT5OPK34XgZsw05Y52x/QzKD0tpyvZm4AbwZd+C13P2o+JVpA+y6lOR01Ghrf9NzlZ177GUyr1B9J9pFLtjWOwDrhqXfQcyK7bfyTQLUvGaxB38iz/bZD+RYA8R08hjMh2bb3TkRPuoYUeIMjsvq+q9UUU6n1wcjEI7DZnM6c7qypsbNg5tj4IJK7Yarylz8h/N4I2ciamemgAAAABJRU5ErkJggg==" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veggie Boost</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script type="module" crossorigin src="/html-css_91_intearseea/assets/index-f696e6b3.js"></script>
+    <link rel="stylesheet" href="/html-css_91_intearseea/assets/index-66ff64dd.css">
+  </head>
+  <body>
+    <header class="header-container">
+  <div class="header-div">
+    <nav class="header-nav">
+      <ul class="menu-list">
+        <li>
+          <a href="#how-it-works" class="menu-link">How It Works</a>
+        </li>
+        <li>
+          <a href="#vegetables" class="menu-link">Vegetables</a>
+        </li>
+        <li><a href="#contacts" class="menu-link">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="header-svg-div">
+      <a href="" class="header-svg-link">
+        <svg class="header-logo-svg" width="16" height="16">
+          <use href="/html-css_91_intearseea/assets/symbol-defs-3947c04a.svg#logo"></use>
+        </svg>
+      </a>
+      <a href="#hero" class="header-logo-link">Veggieboost</a>
+    </div>
+    <button type="button" class="menu-svg-link" data-modal-open>
+      <svg class="basket-svg" width="20" height="20">
+        <use href="/html-css_91_intearseea/assets/symbol-defs-3947c04a.svg#shopping-cart"></use>
+      </svg>
+    </button>
+    <button class="burger-menu" type="button" data-menu-open>
+      <svg class="burger-menu-svg" width="24" height="24">
+        <use href="/html-css_91_intearseea/assets/symbol-defs-3947c04a.svg#burger-menu"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<section class="mob-menu is-hidden" data-menu>
+  <div class="mob-header-div">
+    <div class="header-svg-div">
+      <a href="" class="header-svg-link">
+        <svg class="header-logo-svg" width="16" height="16">
+          <use href="/html-css_91_intearseea/assets/symbol-defs-3947c04a.svg#logo"></use>
+        </svg>
+      </a>
+      <a href="#hero" class="header-logo-link">Veggieboost</a>
+    </div>
+    <button class="mob-menu-x" type="button" data-menu-close>
+      <svg class="mob-menu-x-svg" width="24" height="24">
+        <use href="/html-css_91_intearseea/assets/symbol-defs-3947c04a.svg#cross"></use>
+      </svg>
+    </button>
+  </div>
+
+  <div class="main-mob-menu">
+    <nav class="mob-nav">
+      <ul class="mob-menu-list">
+        <li>
+          <a href="#how-it-works" class="mob-menu-link">How It Works</a>
+        </li>
+        <li>
+          <a href="#vegetables" class="mob-menu-link">Vegetables</a>
+        </li>
+        <li>
+          <a href="#contacts" class="mob-menu-link">Contacts</a>
+        </li>
+        <li>
+          <button type="button" class="mob-order-btn" data-modal-open>
+            <svg class="mob-basket-svg" width="20" height="20">
+              <use href="/html-css_91_intearseea/assets/symbol-defs-3947c04a.svg#shopping-cart"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+    <main>
+      <section class="hero">
+  <div class="container">
+    <div class="hero-box">
+      <div class="hero-box-left">
+        <ul class="hero-reviews-list">
+          <li class="hero-reviews-item">
+            <a class="hero-reviews-link" href="#"
+              ><img
+                class="hero-reviews-photo"
+                srcset="data:image/jpeg;base64,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 1x, data:image/jpeg;base64,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 2x"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAQEBAQEBAQEBAQGBgUGBggHBwcHCAwJCQkJCQwTDA4MDA4MExEUEA8QFBEeFxUVFx4iHRsdIiolJSo0MjRERFwBBAQEBAQEBAQEBAYGBQYGCAcHBwcIDAkJCQkJDBMMDgwMDgwTERQQDxAUER4XFRUXHiIdGx0iKiUlKjQyNEREXP/CABEIAEIAQgMBIgACEQEDEQH/xAAdAAACAgIDAQAAAAAAAAAAAAAGCAUHAAIBAwkE/9oACAEBAAAAAH9iKcDNSm2yvmHXb4oasrOI7zMKQCN0zvWr2wlWBWzoxcmHFD/c4r7XgCNjYd7pnrHo5LGFNjX6b0g/Odc4T6zVjnQsbF384w3vnnbdTbM482av9YpXM//EABkBAAIDAQAAAAAAAAAAAAAAAAMEAAECBf/aAAgBAhAAAABbnbeZ5OLI8kGmGjE0HUuVP//EABoBAAIDAQEAAAAAAAAAAAAAAAAFAgMEAQb/2gAIAQMQAAAA2vIKV/pzNpSOpR4oopNOUAP/xAA3EAACAQIFAgIGCgEFAAAAAAABAgMEBQAGERIhBzFBURMUUmFxcggQICIjJDJigZEVQ0SCksH/2gAIAQEAAT8A1xeL7b7HTGorpdPYjHLufIDF36hXmuZo7fto4NeNBulI958MTVddVsWqqyaYnuZHLYieaE7opZI2HirFSMW3OeYbay/nGqIvFKj72o8te+MvZutt8AhY+r1fjC55Pynx+u93enstvmrZ+SBoiDu7nsMXO4Vl3rJa6tfdI54A/So9keQGAnjpjMGYbNlW2yXS91i01Op2jxd2PgijUscQ9bcvy001w/w1yFCJViSUCIuWYEjVd3GMu5htOaKIV1qnLp2dGUpIh96tiPfE6SROUkU7lZTyCPLGUcwi8U5gq2ArIVG7QfrX2vqz7c2rbqKFW/Aoxp8ZG7nATjGwYz4t06kdRbjZoqkxW60SmlQNyiFDo7fMWxaOg9FW5VFjp7w6ymVahZWjBBcA98MMydJuo1ioL9B6OjqClM0qcwTwOdu5T+086HnCoAQO4AxaayS119NWx/6bjd+5DwRhJRIiOjaqygg+44rJTU1dXUMdTLK7n37jgLjaMWDLF5huN4uNttss1XPd6+ScxCLxnbbr6XFFdcw26wVVzFH6aopJlg2rDvZyR4orjkdv1aY6uZVr8/5Xy3VCCSO4Jc4SN8IhKI6MX1G98BOB241H9cY28dsUuZZYKWmh3n8OJE/6jTE0RimliYaFHZT/AAdMbcaYud4rMn1d5rKKm3CoRZF05I3ttdgD30Jxlq/VVJk6Wqq4tjGUzh1SWUykkEjQIe4/rF1uCz0dIgg2MUDAE8phR2wBiKzVEkUUiodHQMPgRjNlv9RvdUQp9HOxmQ/N30/nGnni63W22Wkkr7rXw0lNGpcyTOFHHlr3xmPrIKzPNXdKMSzWNESmgibjdHGeX0Pt4sXX/phSWIxok8dSyaPSiCRm94TUbMZGzemd7O95CCN/WZo2i3hnjTedm7AXFPTyVE8UCKS0jBAPjiGkihhihCDSNFQceyNMZnsou9vJQfmYCXi07njlf5xnHr5fKS5V1py9ZYqM00jwyS16kzh0OnEfAQ4v1+vuZqs1l9uk9ZKTx6VtQvuC9hhaRSddedcQUoVhjL2Z79liuS4WStMEw4ZRyjjydexxlv6RFvmeOmzVajSfd5qqVjJHx3JjPIxka3w1VPS5gXVoaiIPSEqV3I4136Hkaj6tDjrP9Hi0dTC+YLLJFbMzJHp6XbpDV+6f/wAfGbunWdch1z0ea7BU0R1Ijm274JR5pKuqthNhJAYHC8EDQ/1ixWa75irI6CxW2puFS7bVjpY2lJP/ABx0m+i56nPSZk6kCOSaJ1lgs6NvQHzqXHf5BiOJYlSNECIoCqq8AAcAAD7FVR0lbTyUlbSxVFPINHimQOjAHXlW1Bx19sFitVfUm12Wgo9X/wBtTRxeP7AMdLLVbLjfaKC4W6lqoXlO6OeFJFOik8hgcZUs1ns9no4rRaaOhRogWWlgSEH4hAPsf//EACMRAQACAgEEAQUAAAAAAAAAAAECAwARIRASE0FRBCIjMYH/2gAIAQIBAT8Avv8AEdseZuLZbLmSr6whdXyEj+5Td3fbPh6WbnOUlyVrVF7NFktEV9Z9PfPsSyTJl+94OnZ6zy5KOpSPhy6iy+v8ZzHnKq7ABjIgRBGOuTA9Z434zxwZd0jADiJgCIhjXWS3HqY9f//EACgRAAIBAgQFBAMAAAAAAAAAAAECAwAEERIhQRMUIjFRECAjkWGhsf/aAAgBAwEBPwCzszcnM2kYP3SRwQJiiKoHdjRktrjoJR6vLMQ/JFiU3Hj0hQRRJGNh+zUsYmy5lJjBLOBv4FXFsiyq0SBcpGXD+GmGZWU7jA1ycng/VRvxEjYbiuZihcCU6N0n8U8tu8h4bAnEnRgaLAanQDU1zrUlxMkfCV8FoksSWJJoMVOZdDTXczRmMnvv7//Z"
+                alt="photo"
+                width="66"
+                height="66"
+            /></a>
+          </li>
+          <li class="hero-reviews-item">
+            <a class="hero-reviews-link" href="#"
+              ><img
+                class="hero-reviews-photo"
+                srcset="data:image/jpeg;base64,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 1x, /html-css_91_intearseea/assets/reviews-photo2-2x-3f570fcc.jpg 2x"
+                src="data:image/jpeg;base64,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"
+                alt="photo"
+                width="66"
+                height="66"
+            /></a>
+          </li>
+          <li class="hero-reviews-item">
+            <a class="hero-reviews-link" href="#"
+              ><img
+                class="hero-reviews-photo"
+                srcset="data:image/jpeg;base64,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 1x, /html-css_91_intearseea/assets/reviews-photo3-2x-a9da803f.jpg 2x"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAQEBAQEBAQEBAQGBgUGBggHBwcHCAwJCQkJCQwTDA4MDA4MExEUEA8QFBEeFxUVFx4iHRsdIiolJSo0MjRERFwBBAQEBAQEBAQEBAYGBQYGCAcHBwcIDAkJCQkJDBMMDgwMDgwTERQQDxAUER4XFRUXHiIdGx0iKiUlKjQyNEREXP/CABEIAEIAQgMBIgACEQEDEQH/xAAdAAACAQUBAQAAAAAAAAAAAAAGBwgAAgQFCQED/9oACAEBAAAAAJ+6tXp7LZTNI/dWjU3rdIymO3ShSCEUpDiwjIrOdiD+MSJNZyke1GQNZzok3jgM0bdrYPc5G6djMu73UFcuxboYoYptme7XpBQIKV/bMeYl1Vj8+Vv0431V/8QAGQEAAwEBAQAAAAAAAAAAAAAAAgMEAAEF/9oACAECEAAAAEycrf5qNRZCgqKjjY9mAu7/xAAaAQACAwEBAAAAAAAAAAAAAAAEBQACAwEG/9oACAEDEAAAADnOiZb6vts0b/GuqhTYUuQbhU//xAAkEAACAgMAAQQCAwAAAAAAAAAEBQMGAQIHAAgQERIVIRMWF//aAAgBAQABCADPjVuEpgzMYzuzYvffQGzdMrqGT+N+guiB5NrGkX2t2vzr4jswDj6xZ9m7OBWFKXKwOKaFblldUthKEEVQro/GV5kMbR90PnMiOSV3WOZ2/wDulahOIjxvHvrJHWHuGcGRyvny5MMmMsCa/Xy67lPulkhC0iB4DBtsxchu9m0sM3JI5FtvuCfGNMeLit15w5cekmN9dd9SpckFEEZ8rDrQbsTaedw2ZksRyFZbaaBCOMRQ2oRt1PCB+vmcfr4yNYMxjDx7b6Zjllj2zj9Z8fO5Ed/bH6KiKDaNdWe1ts6Kq14/FZ9MX3nsFkJ3+PM48iVlSRR762gLITkn4ztj4+fLfXzWnRrGMGtoUsk40g72iRyVRqu19MIO4ZdwzN5DDuRNHBHCHFDDFFjoaZy2rLDNbs1vthJhAT9W9JUNBGQVN/E2NCG9Vd2tuK6BHVgBWxSjOpAld7Rdl2kWxXL5N7AmX2sv265wdX0PH5tTbaFaqcVsHZOO9K/zxiwCbPXJVicHujVChs/N0BScr9NewZED7oWmmseummnuWKMZBuMX3pIlVllfjOYrVzB6AOfXVKtUvFhV+/8A/8QAMxAAAgEDAQYEAwcFAAAAAAAAAQIDAAQRBRASIUFRYRMxMlIUIqEgM0JxcoGRBiM0grL/2gAIAQEACT8AqXGfSg4sx7CgLWInAwA0h7ZNf1Hm4LYMSs8zg9GCA7ta4j3GN7ww5jk/g4NXJnj4EpP8318xWYLjnGxzn9J57TkgYRebNyFNvO3kvJV9q1KUv77O9IvqSEcDju9I1zeyAOY39CZpGtr2H52RBjfC9DQC6hbube7Qe8D1f7UxR1OVYeYNEfFRDiR+Ie7Yf7VqMfm589ltJdG3ZIY4UbcOIlywz+qhe2Cuku5bXF410qlBkMhcAitK1OWJyCL835kTDDP3WcYqErEQZiwGFysnAfnh9h9DDe7qeBFHIYAg9jRyZJHb+Tsb1Xt8ik95jVxpLxfDNFKl3ctEwc8gFBBNSwySCMK5gcsoPTJq4SR1tLu5uvDIKhnkiSNc9QFO1xlI0U+fIUMMrFSO4OwnMOtXYYA4OPGarm1tbt0AnD28bF+5Dj1dxUcbtBCzkxIEUueAZqOW+BUse7y52oSrKCDw8iKBEc58Zc9/P61jHXlQDJNrN00ZUg7yli5Io7qumHA6rWBNNbMd7uvzURkx2YTqwy+SNgJaRgoA70owiKo/YYowjW4IzJZmVd5WYeaHu3LvWpam00cjRT2/zoqOPNCgqGaOeCYOjOuFOfMHJ51BDLFdLl45OBimXgyGpQNRvo966EKZeG35LnkXo3kM/HDwAowHQkGrpb62A4peoN/A6MK0yexN1HmG3nGGA947HbImn6+i/e4xDc9pgPo1aJcW2cqsuN+GRR7JBlWpnn0O9heQAcTFdRqSn7P6akMt1eTtNITxwM8FHZRWn3F/csd1YrWMynPfdpY2lQiSHSYyHQHrcOP+BSBUUBVVRgADgAB9i3ingfg8cqB0YDjxByDWkWVplx/j26RfiHsAqwt7mF3bejniWRThCRkMDWm2tnG0akpbQpEp4dEA+x//xAAlEQACAgEDBAEFAAAAAAAAAAABAgADIQQREhATIjFhIDJBQlH/2gAIAQIBAT8Att4YGTHcgK1jMS32qIlgZeSMw/qn8Sq3lhvfRmLuzS9yzqo/UDaVNlth7A3i4IM7kYcWYfM1fbTtZ89ppHV6rMeQYQZO04RkBztNTp1uAJHkJTStNYRR8mKg97Z6n2Po/8QAJxEAAgECBQMEAwAAAAAAAAAAAQIDAAQREiExURBBcQUTMpFCgcH/2gAIAQMBAT8AsrI3JzNpGO/PilEcUjRWsUa5AM8jbL/TTAOxiuYkbEYqw2bxV5ZCHGSL4dxx0gjEMUca9gPs1axZvcfU53cn9aCnRcYyWwIZiPG1OA4KMNDpRsZcfifqonEkccg2IBqwnk924KEZVkwFXBIvbfO2IZGw80xC6toBrrR9SfipjM0YRZHyj8QcK9OvTaSNHI2WN/ljzzV3eSXlwZuNFC1BcXYjZJJDlbses29Rb9f/2Q=="
+                alt="photo"
+                width="66"
+                height="66"
+            /></a>
+          </li>
+          <li class="hero-reviews-item">
+            <a class="hero-reviews-link" href="#"
+              ><p class="hero-reviews-text">2K <span>reviews</span></p></a
+            >
+          </li>
+        </ul>
+        <h1 class="hero-title">
+          Organic <span>vegetables</span> to your diet today!
+        </h1>
+        <p class="hero-paragraph">
+          Our expertly curated vegetable baskets are made with the freshest,
+          highest quality vegetables available. Fresh Harvest Box has got you
+          covered. Fresh, high-quality vegetables in expertly curated vegetable
+          baskets delivered to you.
+        </p>
+        <button class="hero-button" type="button" data-modal-open>
+          Shop <br />
+          now
+        </button>
+      </div>
+
+      <img
+        class="hero-photo"
+        srcset="/html-css_91_intearseea/assets/hero-photo-bg-458bf3df.png 1x, /html-css_91_intearseea/assets/hero-photo-bg-2x-3e725248.png 2x"
+        src="/html-css_91_intearseea/assets/hero-photo-bg-458bf3df.png"
+        alt="Photo"
+        width="515"
+        height="423"
+      />
+    </div>
+    <div class="hero-list-link">
+      <ul class="hero-link-list">
+        <li class="hero-link-item">
+          <a class="hero-link" href="#">#Organic</a>
+        </li>
+        <li class="hero-link-item">
+          <a class="hero-link" href="#">#Products</a>
+        </li>
+        <li class="hero-link-item">
+          <a class="hero-link" href="#">#Basket</a>
+        </li>
+        <li class="hero-link-item">
+          <a class="hero-link" href="#">#Vegetables</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="how-it-works-first-part" id="how-it-works">
+  <div class="container vegetables-baket-container">
+    <div class="vegetables-baket-first">
+      <h2 class="works-title">
+        To order your vegetable basket, simply follow these easy steps
+      </h2>
+      <picture>
+        <source
+          srcset="/html-css_91_intearseea/assets/img_broccoli_desctop-d4b5d053.png 1x, /html-css_91_intearseea/assets/img_broccoli_desctop@2x-10dddf12.png 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/html-css_91_intearseea/assets/img_broccoli_tablet-92a9eaa7.png 1x, /html-css_91_intearseea/assets/img_broccoli_tablet@2x-e7cfcf63.png 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/html-css_91_intearseea/assets/img-broccoli-mob-1x-d2946b2d.png 1x, /html-css_91_intearseea/assets/img-broccoli-mob-2x-5443d737.png 2x"
+          media="(max-width: 767px)"
+        />
+
+        <img
+          src="/html-css_91_intearseea/assets/img-broccoli-mob-1x-d2946b2d.png"
+          alt="broccoli"
+          width="335"
+          height="158"
+          class="works-picture"
+        />
+      </picture>
+    </div>
+    <div class="vegetables-baket-secondary">
+      <p class="main-slogan">
+        Our baskets are assembled with care and delivered straight to your
+        doorstep, so you can enjoy the taste of fresh fruit without ever leaving
+        your home.
+      </p>
+
+      <p class="secondary-slogan">
+        Whether you're looking for a healthy snack or a thoughtful gift, our
+        fruit baskets are the perfect choice.
+      </p>
+    </div>
+  </div>
+</section>
+
+      <section class="hiw2">
+  <div class="container">
+    <div class="hiw2-wrap">
+      <div class="hiw2-text-part">
+        <h2 class="hiw2-title">3 Easy Steps for Buying Fresh Vegetables</h2>
+        <ol class="hiw2-list">
+          <li class="hiw2-item">
+            Just choose the vegetable you want to order by clicking on the
+            checkboxes next to it.
+          </li>
+          <li class="hiw2-item">Click on the basket and fill out the form.</li>
+          <li class="hiw2-item">
+            Sit back and relax! Your fresh vegetables basket will be delivered.
+          </li>
+        </ol>
+      </div>
+      <picture>
+        <source
+          srcset="/html-css_91_intearseea/assets/little-girl-desc-ce8f0819.png 1x, /html-css_91_intearseea/assets/little-girl-desc-2x-62eb7782.png 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/html-css_91_intearseea/assets/little-girl-tab-2f6e6a99.png 1x, /html-css_91_intearseea/assets/little-girl-tab-2x-403080a1.png 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/html-css_91_intearseea/assets/little-girl-c2bdf99c.png 1x, /html-css_91_intearseea/assets/little-girl-2x-8793af77.png 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/html-css_91_intearseea/assets/little-girl-c2bdf99c.png"
+          alt="little girl with lettuce"
+          width="258"
+          height="319"
+          class="hiw2-picture"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <section class="vegetables-section" id="vegetables">
+  <div class="vegetables-container container">
+    <h2 class="vegetables-title">Organic vegetables</h2>
+    <p class="vegetables-subtitle">
+      Our organic vegetables are hand-picked from local farms and delivered
+      straight to your doorstep, ensuring that you get the freshest and most
+      nutritious produce possible.
+    </p>
+    <ul class="veg-list">
+      <li class="veg-item">
+        <div class="card">
+          <div class="card__face card__face--front">
+            <div class="text-cont">
+              <h3 class="veg-item-title">Carrot</h3>
+              <p class="veg-item-text">Plant</p>
+            </div>
+            <div class="image-contnr">
+              <picture>
+                <source
+                  srcset="/html-css_91_intearseea/assets/carrot-tablet-1x-min-90788b9f.png 1x, /html-css_91_intearseea/assets/carrot-tablet-2x-min-9d2a036b.png 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/html-css_91_intearseea/assets/carrot-mobile-1x-min-5b20c101.png 1x, /html-css_91_intearseea/assets/carrot-mobile-2x-min-2695caaf.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html-css_91_intearseea/assets/carrot-mobile-1x-min-5b20c101.png"
+                  alt="carrot"
+                  width="300"
+                  height="250"
+                  class="card-picture"
+                />
+              </picture>
+            </div>
+            <p class="veg-item-price">100 UAH / kg</p>
+          </div>
+          <div class="card__face card__face--back">
+            <p class="veg-item-benefits">
+              Carrots are full of benefits—they may promote healthy vision,
+              balance your blood sugar, help with weight management, lower your
+              risk of cancer, regulate blood pressure, reduce heart disease,
+              improve immunity, and boost brain health.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li class="veg-item">
+        <div class="card">
+          <div class="card__face card__face--front">
+            <div class="text-cont">
+              <h3 class="veg-item-title">Brussel sprouts</h3>
+              <p class="veg-item-text">Plant</p>
+            </div>
+            <div class="image-contnr">
+              <picture>
+                <source
+                  srcset="/html-css_91_intearseea/assets/brussel-tablet-1x-min-3d3bed4f.png 1x, /html-css_91_intearseea/assets/brussel-tablet-2x-min-183e4cfc.png 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/html-css_91_intearseea/assets/brussel-mobile-1x-min-6a6b559a.png 1x, /html-css_91_intearseea/assets/brussel-mobile-2x-min-5b78e7ca.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html-css_91_intearseea/assets/brussel-mobile-1x-min-6a6b559a.png"
+                  alt="brussel"
+                  width="300"
+                  height="250"
+                  class="card-picture"
+                />
+              </picture>
+            </div>
+            <p class="veg-item-price">80 UAH / kg</p>
+          </div>
+          <div class="card__face card__face--back">
+            <p class="veg-item-benefits">
+              Brussels sprouts are high in fiber, vitamins, minerals, and
+              antioxidants, making them a nutritious addition to your diet. They
+              may also come with added health benefits, including decreased
+              inflammation and improved immune system health.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li class="veg-item">
+        <div class="card">
+          <div class="card__face card__face--front">
+            <div class="text-cont">
+              <h3 class="veg-item-title">Tomato</h3>
+              <p class="veg-item-text">Plant</p>
+            </div>
+            <div class="image-contnr">
+              <picture>
+                <source
+                  srcset="/html-css_91_intearseea/assets/tomato-tablet-1x-min-7e888d56.png 1x, /html-css_91_intearseea/assets/tomato-tablet-2x-min-c1a41519.png 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/html-css_91_intearseea/assets/tomato-mobile-1x-min-3c522793.png 1x, /html-css_91_intearseea/assets/tomato-mobile-2x-min-de984394.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html-css_91_intearseea/assets/tomato-mobile-1x-min-3c522793.png"
+                  alt="Tomato"
+                  width="300"
+                  height="250"
+                  class="card-picture"
+                />
+              </picture>
+            </div>
+            <p class="veg-item-price">40 UAH / kg</p>
+          </div>
+          <div class="card__face card__face--back">
+            <p class="veg-item-benefits">
+              Tomatoes are packed with vitamins, minerals, and antioxidants.
+              With their high lycopene content, they contribute to a reduced
+              risk of heart disease and cancer. The intake of tomatoes may also
+              improve eye health, digestive health, and reduce risk of
+              osteoporosis.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li class="veg-item">
+        <div class="card">
+          <div class="card__face card__face--front">
+            <div class="text-cont">
+              <h3 class="veg-item-title">Eggplant</h3>
+              <p class="veg-item-text">Plant</p>
+            </div>
+            <div class="image-contnr">
+              <picture>
+                <source
+                  srcset="/html-css_91_intearseea/assets/eggplant-tablet-1x-min-b149e737.png 1x, /html-css_91_intearseea/assets/eggplant-tablet-2x-min-87f6dcc2.png 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/html-css_91_intearseea/assets/eggplant-mobile-1x-min-14db1419.png 1x, /html-css_91_intearseea/assets/eggplant-mobile-2x-min-b8f319aa.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html-css_91_intearseea/assets/eggplant-mobile-1x-min-14db1419.png"
+                  alt="Eggplant"
+                  width="300"
+                  height="250"
+                  class="card-picture"
+                />
+              </picture>
+            </div>
+            <p class="veg-item-price">60 UAH / kg</p>
+          </div>
+          <div class="card__face card__face--back">
+            <p class="veg-item-benefits">
+              Eggplants are rich in fiber and antioxidants. A serving of
+              eggplant can provide at least 5% of a person's daily requirement
+              of fiber, copper, manganese, B-6, and thiamine. It also contains
+              other vitamins and minerals. In addition, eggplants are a source
+              of phenolic compounds that act as antioxidants.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li class="veg-item">
+        <div class="card">
+          <div class="card__face card__face--front">
+            <div class="text-cont">
+              <h3 class="veg-item-title">Sweet potatoes</h3>
+              <p class="veg-item-text">Plant</p>
+            </div>
+            <div class="image-contnr">
+              <picture>
+                <source
+                  srcset="/html-css_91_intearseea/assets/potatoes-tablet-1x-min-ed476653.png 1x, /html-css_91_intearseea/assets/potatoes-tablet-2x-min-67e64a85.png 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/html-css_91_intearseea/assets/potatoes-mobile-1x-min-3e8c6faa.png 1x, /html-css_91_intearseea/assets/potatoes-mobile-2x-min-f26aba6f.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html-css_91_intearseea/assets/potatoes-mobile-1x-min-3e8c6faa.png"
+                  alt="Potatoes"
+                  width="300"
+                  height="250"
+                  class="card-picture"
+                />
+              </picture>
+            </div>
+            <p class="veg-item-price">80 UAH / kg</p>
+          </div>
+          <div class="card__face card__face--back">
+            <p class="veg-item-benefits">
+              Sweet potatoes are high in fiber and antioxidants, which protect
+              your body from free radical damage and promote a healthy gut and
+              brain. They're also incredibly rich in beta carotene, which is
+              converted to vitamin A to support good vision and your immune
+              system.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li class="veg-item">
+        <div class="card">
+          <div class="card__face card__face--front">
+            <div class="text-cont">
+              <h3 class="veg-item-title">Leek</h3>
+              <p class="veg-item-text">Plant</p>
+            </div>
+            <div class="image-contnr">
+              <picture>
+                <source
+                  srcset="/html-css_91_intearseea/assets/leek-tablet-1x-min-4583e656.png 1x, /html-css_91_intearseea/assets/leek-tablet-2x-min-31df6b67.png 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/html-css_91_intearseea/assets/leek-mobile-1x-min-161c4b63.png 1x, /html-css_91_intearseea/assets/leek-mobile-2x-min-fb16fe43.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html-css_91_intearseea/assets/leek-mobile-1x-min-161c4b63.png"
+                  alt="Leek"
+                  width="300"
+                  height="250"
+                  class="card-picture"
+                />
+              </picture>
+            </div>
+            <p class="veg-item-price">50 UAH / kg</p>
+          </div>
+          <div class="card__face card__face--back">
+            <p class="veg-item-benefits">
+              Leeks are low in calories but high in nutrients, particularly
+              magnesium and vitamins A, C, and K. They boast small amounts of
+              fiber, copper, vitamin B6, iron, and folate. Leeks are rich in
+              antioxidants and sulfur compounds. These are thought to protect
+              your body from disease.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li class="veg-item">
+        <div class="card">
+          <div class="card__face card__face--front">
+            <div class="text-cont">
+              <h3 class="veg-item-title">Mushrooms</h3>
+              <p class="veg-item-text">Plant</p>
+            </div>
+            <div class="image-contnr">
+              <picture>
+                <source
+                  srcset="/html-css_91_intearseea/assets/mushrooms-tablet-1x-min-dd6829db.png 1x, /html-css_91_intearseea/assets/mushrooms-tablet-2x-min-34cd376f.png 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/html-css_91_intearseea/assets/mashrooms-mobile-1x-min-b164f5d0.png 1x, /html-css_91_intearseea/assets/mashrooms-mobile-2x-min-48b6dbf4.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html-css_91_intearseea/assets/mashrooms-mobile-1x-min-b164f5d0.png"
+                  alt="Leek"
+                  width="300"
+                  height="250"
+                  class="card-picture"
+                />
+              </picture>
+            </div>
+            <p class="veg-item-price">40 UAH / kg</p>
+          </div>
+          <div class="card__face card__face--back">
+            <p class="veg-item-benefits">
+              Mushrooms are a low-calorie food that packs a nutritional punch.
+              Loaded with many health-boosting vitamins, minerals, and
+              antioxidants, they’ve long been recognized as an important part of
+              any diet. The anti-inflammatory effect of mushrooms has been shown
+              to greatly improve the efficiency of the immune system.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li class="veg-item">
+        <div class="card">
+          <div class="card__face card__face--front">
+            <div class="text-cont">
+              <h3 class="veg-item-title">Corn</h3>
+              <p class="veg-item-text">Plant</p>
+            </div>
+            <div class="image-contnr">
+              <picture>
+                <source
+                  srcset="/html-css_91_intearseea/assets/corn-tablet-1x-min-64742a4f.png 1x, /html-css_91_intearseea/assets/corn-tablet-2x-min-356dd380.png 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/html-css_91_intearseea/assets/corn-mobile-1x-min-445b24de.png 1x, /html-css_91_intearseea/assets/corn-mobile-2x-min-f981e2ac.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html-css_91_intearseea/assets/corn-mobile-1x-min-445b24de.png"
+                  alt="Corn"
+                  width="300"
+                  height="250"
+                  class="card-picture"
+                />
+              </picture>
+            </div>
+            <p class="veg-item-price">60 UAH / kg</p>
+          </div>
+          <div class="card__face card__face--back">
+            <p class="veg-item-benefits">
+              Choosing corn and whole-grain corn products -- rather than food
+              that has processed white flour -- can lead to better gut health
+              and help lower your chances of getting diseases like cancer, heart
+              disease, and type 2 diabetes. The fiber in corn helps you stay
+              full for longer between meals.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li class="veg-item-radish veg-item">
+        <div class="card">
+          <div class="card__face card__face--front">
+            <div class="text-cont">
+              <h3 class="veg-item-title">Radish</h3>
+              <p class="veg-item-text">Plant</p>
+            </div>
+            <div class="image-contnr">
+              <picture>
+                <source
+                  srcset="/html-css_91_intearseea/assets/radish-tablet-1x-min-d194fa0f.png 1x, /html-css_91_intearseea/assets/radish-tablet-2x-min-67b5b9c3.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="/html-css_91_intearseea/assets/radish-tablet-1x-min-d194fa0f.png"
+                  alt="Radish"
+                  width="300"
+                  height="250"
+                  class="card-picture active"
+                />
+              </picture>
+            </div>
+            <p class="veg-item-price">90 UAH / kg</p>
+          </div>
+          <div class="card__face card__face--back">
+            <p class="veg-item-benefits">
+              Radishes are a good source of antioxidants like catechin,
+              pyrogallol, vanillic acid, and other phenolic compounds. These
+              root vegetables also have a good amount of vitamin C, which acts
+              as an antioxidant to protect your cells from damage.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <button
+      type="button"
+      class="vegetables-button"
+      id="vegetables"
+      data-modal-open
+    >
+      <svg class="vegetables-strelka-icon" width="14" height="14">
+        <use href="/html-css_91_intearseea/assets/symbol-defs-3947c04a.svg#strelka"></use>
+      </svg>
+      Order
+    </button>
+  </div>
+</section>
+
+      <section class="wwcy-section" id="">
+  <div class="wwcy-container">
+    <div class="wwcy-leftside-box">
+      <h1 class="wwcy-title">Fresh Harvest Box has got you covered</h1>
+      <p class="wwcy-txt">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+
+      <form class="wwcy-form">
+        <input
+          type="tel"
+          name="phone-number"
+          id="phone-number"
+          class="wwcy-form-input"
+          placeholder="+380 ()"
+          pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+          title="Number format has to be: +380 (**) ***-**-**"
+          required
+        />
+        <button type="submit" class="wwcy-button">Recall</button>
+      </form>
+    </div>
+    <div class="wwcy-li wwcy-image-box">
+      <picture>
+        <source
+          media="(min-width:1280px)"
+          srcset="/html-css_91_intearseea/assets/img-girl-desk-5aced36e.png 1x, /html-css_91_intearseea/assets/img-girl-desk2x-d06fa118.png 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/html-css_91_intearseea/assets/img-girl-tablet-2218a389.png 1x, /html-css_91_intearseea/assets/img-girl-tablet2x-ec377399.png 2x"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/html-css_91_intearseea/assets/img-girl-7c226945.png 1x, /html-css_91_intearseea/assets/img-girl2x-a13bad90.png 2x"
+        />
+        <img
+          src="/html-css_91_intearseea/assets/img-girl-7c226945.png"
+          alt="girl with the
+        broccoli"
+          class="wwcy-image"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer" id="contacts">
+  <div class="footer-container container">
+    <div class="footer-logo-nav">
+      <div class="footer-img-logo">
+        <picture>
+          <source
+            srcset="/html-css_91_intearseea/assets/broccoli-tab-1x-d1dc71cf.png 1x, /html-css_91_intearseea/assets/broccoli-tab-2x-3da5ae32.png 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/html-css_91_intearseea/assets/broccoli-f9cfbda2.jpg 1x, /html-css_91_intearseea/assets/broccoli-2x-1f1ad727.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            src="/html-css_91_intearseea/assets/broccoli-f9cfbda2.jpg"
+            class="footer-img"
+            width="335"
+            height="172"
+            alt="broccoli"
+          />
+        </picture>
+
+        <div class="footer-logo-container">
+          <a class="footer-logo-link" href="">
+            <svg class="footer-logo" width="16" height="16">
+              <use href="/html-css_91_intearseea/assets/symbol-defs-3947c04a.svg#logo"></use>
+            </svg>
+            <span class="footer-logo-title">VEGGIEBOOST</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-nav">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a href="#how-it-works" class="footer-nav-link">How It Works</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#vegetables" class="footer-nav-link">Vegetables</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#contacts" class="footer-nav-link">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-soc-address">
+      <div class="footer-soc-container">
+        <ul class="footer-soc-list">
+          <li class="footer-soc-item">
+            <a
+              class="footer-soc"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer-soc-icon" width="24" height="24">
+                <use href="/html-css_91_intearseea/assets/symbol-defs-3947c04a.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              class="footer-soc"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer-soc-icon" width="24" height="24">
+                <use href="/html-css_91_intearseea/assets/symbol-defs-3947c04a.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              class="footer-soc"
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer-soc-icon" width="24" height="24">
+                <use href="/html-css_91_intearseea/assets/symbol-defs-3947c04a.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <address class="footer-address">
+        <ul class="footer-address-list">
+          <li class="footer-address-tel">
+            <a class="footer-tel" href="tel:+380684439426"
+              >+380 (68) 443-94-26</a
+            >
+          </li>
+          <li class="footer-address-map">
+            <a
+              class="footer-map"
+              href="https://goo.gl/maps/fMMjw9wqBxta4a886"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >1678 S. Pioneer Road Salt Lake City UT 84104
+            </a>
+          </li>
+        </ul>
+      </address>
+    </div>
+  </div>
+</footer>
+
+    <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="modal-btn-close" data-modal-close>
+      <svg width="24" height="24" class="modal-close-icon">
+        <use href="/html-css_91_intearseea/assets/symbol-defs-3947c04a.svg#cross"></use>
+      </svg>
+    </button>
+
+    <h2 class="modal-title">Your Order</h2>
+    <ul class="modal-list-cards">
+      <li class="modal-item-cards">
+        <div class="modal-field modal-check-field">
+          <input
+            type="checkbox"
+            name="cabbage"
+            id="cabbage"
+            class="modal-check visually-hidden"
+            value="true"
+            checked
+          />
+          <label for="cabbage" class="check-label">
+            <span class="fake-checkbox"> </span>
+          </label>
+        </div>
+
+        <h3 class="modal-cards-title">Cabbage Basket</h3>
+        <p class="modal-cards-text">Plant</p>
+        <picture>
+          <source
+            srcset="/html-css_91_intearseea/assets/cabbage-top-43d9a7ae.png 1x, /html-css_91_intearseea/assets/cabbage-top2x-3472f81c.png 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/html-css_91_intearseea/assets/cabbage-tab-bf3284b4.png 1x, /html-css_91_intearseea/assets/cabbage-tab2x-191c0ba8.png 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/html-css_91_intearseea/assets/cabbage-mob-a28f6ff6.png 1x, /html-css_91_intearseea/assets/cabbage-mob2x-b42454e3.png 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            src="/html-css_91_intearseea/assets/cabbage-mob-a28f6ff6.png"
+            alt="A basket of Brussel sprouts"
+            width="94"
+            height="78"
+            class="modal-card-img"
+          />
+        </picture>
+      </li>
+
+      <li class="modal-item-cards">
+        <div class="modal-field modal-check-field">
+          <input
+            type="checkbox"
+            name="tomato"
+            id="tomato"
+            class="modal-check visually-hidden"
+            value="true"
+          />
+          <label for="tomato" class="check-label">
+            <span class="fake-checkbox"> </span>
+          </label>
+        </div>
+
+        <h3 class="modal-cards-title">Tomato Basket</h3>
+        <p class="modal-cards-text">Plant</p>
+        <picture>
+          <source
+            srcset="/html-css_91_intearseea/assets/tomato-top-f3ffdd6a.png 1x, /html-css_91_intearseea/assets/tomato-top2x-3faef198.png 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/html-css_91_intearseea/assets/tomato-tab-e863f006.png 1x, /html-css_91_intearseea/assets/tomato-tab2x-d5ab8120.png 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/html-css_91_intearseea/assets/tomato-mob-97c5b950.png 1x, /html-css_91_intearseea/assets/tomato-mob2x-b5d0324d.png 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            src="/html-css_91_intearseea/assets/tomato-mob-97c5b950.png"
+            alt="A basket of Brussel sprouts"
+            width="94"
+            height="78"
+            class="modal-card-img"
+          />
+        </picture>
+      </li>
+
+      <li class="modal-item-cards">
+        <div class="modal-field modal-check-field">
+          <input
+            type="checkbox"
+            name="vege-busket"
+            id="vege-busket"
+            class="modal-check visually-hidden"
+            value="true"
+          />
+          <label for="vege-busket" class="check-label">
+            <span class="fake-checkbox"> </span>
+          </label>
+        </div>
+
+        <h3 class="modal-cards-title">Vegetables Basket</h3>
+        <p class="modal-cards-text">Plant</p>
+        <picture>
+          <source
+            srcset="/html-css_91_intearseea/assets/vegetables-top-f045c583.png 1x, /html-css_91_intearseea/assets/vegetables-top2x-e6bacc0b.png 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/html-css_91_intearseea/assets/vegetables-tab-30f154f0.png 1x, /html-css_91_intearseea/assets/vegetables-tab2x-6c981b09.png 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/html-css_91_intearseea/assets/vegetables-mob-52e5e435.png 1x, /html-css_91_intearseea/assets/vegetables-mob2x-02da897f.png 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            src="/html-css_91_intearseea/assets/vegetables-mob-52e5e435.png"
+            alt="A basket of Brussel sprouts"
+            width="94"
+            height="78"
+            class="modal-card-img"
+          />
+        </picture>
+      </li>
+    </ul>
+
+    <form class="modal-form">
+      <div class="all-input-form">
+        <label class="modal-label" aria-label="user-name">
+          <input
+            type="text"
+            name="user-name"
+            pattern="[^0-9]*"
+            placeholder="Enter full name..."
+            class="modal-input"
+            title="You can not enter numbers"
+            required
+          />
+        </label>
+        <label class="modal-label" aria-label="">
+          <input
+            type="email"
+            name="user-email"
+            placeholder="Enter email..."
+            class="modal-input"
+            required
+          />
+        </label>
+        <label class="modal-label" aria-label="">
+          <input
+            type="tel"
+            pattern="[0-9]{16,16}"
+            minlength="16"
+            maxlength="16"
+            name="card-number"
+            placeholder="Enter card.."
+            class="modal-input"
+            title="You have to enter 16 digits"
+            required
+          />
+        </label>
+        <label class="modal-label" aria-label="">
+          <textarea
+            name="user-comments"
+            placeholder="Enter comments..."
+            class="comments"
+          ></textarea>
+        </label>
+      </div>
+      <button type="submit" class="modal-btn-submit">Submit</button>
+    </form>
+    <img
+      srcset="/html-css_91_intearseea/assets/girl-eb5bf164.png 1x, /html-css_91_intearseea/assets/girl2x-9dc7ba15.png 2x"
+      src="./img/images/girl.png"
+      width="444"
+      height="413"
+      alt="young woman with lettuce"
+      class="modal-girl"
+    />
+  </div>
+</div>
+
+
+    
+    <a href="#" class="stt" title="scroll to top"></a>
+  </body>
+</html>
